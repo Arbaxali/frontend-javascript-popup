@@ -1,6 +1,6 @@
 # frontend-javascript-popup </ br>
 
-# web url: https://popup-table.netlify.app/
+# web url: https://pop-up-table-optimized.netlify.app/
 
 
 javascript code (used looping)
