@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: auto;
 }
 
 .styled-table {
@@ -15,9 +16,10 @@
 
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 800px;
+    min-width: 600px;
     width: 1300px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow-x: auto;
     
 }
 .styled-table thead tr {
