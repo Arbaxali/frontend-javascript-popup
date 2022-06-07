@@ -33,7 +33,3 @@ window.onclick = function(event) {
     }
 }   
 
-
-
-
-
