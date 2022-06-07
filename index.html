@@ -32,13 +32,49 @@
                     <td>#1231</td>
                     <td>WFH</td>
                     <td>Present</td>
-                    <td><button  class="myBtn" id="myBtn1"> <img src="./eye-svgrepo-com.svg" alt=""></button></td>            
+                    <td><button  class="myBtn" id="myBtn1"> <img src="./eye-svgrepo-com.svg"  id="immg"></button></td>            
                 </tr>    
                 
                 <tr id="row2" onclick="showModal('row2')">
                     <td>2</td>
                     <td>John dee</td>
                     <td>#1241</td>
+                    <td>WFH</td>
+                    <td>Present</td>
+                    <td><button  class="myBtn" id="myBtn2"> <img src="./eye-svgrepo-com.svg" id="immg"></button></td>            
+                </tr>  
+
+                <tr id="row3" onclick="showModal('row3')">
+                    <td>3</td>
+                    <td>John dee</td>
+                    <td>#1241</td>
+                    <td>WFH</td>
+                    <td>Absent</td>
+                    <td><button  class="myBtn" id="myBtn3"> <img src="./eye-svgrepo-com.svg" alt=""></button></td>            
+                </tr>  
+
+                <tr id="row4" onclick="showModal('row4')">
+                    <td>4</td>
+                    <td>Jope</td>
+                    <td>#1241</td>
+                    <td>Office</td>
+                    <td>Present</td>
+                    <td><button  class="myBtn" id="myBtn4"> <img src="./eye-svgrepo-com.svg" alt=""></button></td>            
+                </tr>  
+
+                <tr id="row5" onclick="showModal('row5')">
+                    <td>5</td>
+                    <td>depper</td>
+                    <td>#1201</td>
+                    <td>WFH</td>
+                    <td>Present</td>
+                    <td><button  class="myBtn" id="myBtn5"> <img src="./eye-svgrepo-com.svg" alt=""></button></td>            
+                </tr>  
+
+                <tr id="row6" onclick="showModal('row6')">
+                    <td>6</td>
+                    <td>Jackson</td>
+                    <td>#1271</td>
                     <td>WFH</td>
                     <td>Present</td>
                     <td><button  class="myBtn" id="myBtn2"> <img src="./eye-svgrepo-com.svg" alt=""></button></td>            
@@ -58,12 +94,20 @@
                          <table>
                              <tbody>
                                  <tr id="modalData">
-
+                                    <td>name: </td>
+                                    <td>name: </td>
+                                    <td>name: </td>
+                                    <td>name: </td>
                                  </tr>
-
-
                              </tbody>
                          </table>
+
+                         <form>
+                            <br> E-mail:<br>    
+                            <input type="text" name="name">
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </form>
                      </div>
                 </div>
             </div> 
@@ -77,9 +121,18 @@
         const row1 = document.getElementById(currentRowid);
         const modalData = document.getElementById("modalData");
         modalData.innerHTML = JSON.stringify(row1.innerHTML).replaceAll('\\n',' ');
+        
+        const myDiv = document.getElementById('immg')
+        // myDiv.replaceAll("///g,' '")
+    
+        console.log(myDiv)
+        
+    
 
-        console.log('row1 text',row1)
-        console.log('row1 text',JSON.stringify(row1.innerHTML).replaceAll('\\n',' '))
+
+//         console.log('row1 text',row1)
+//         console.log('row1 text',JSON.stringify(row1.innerHTML).replaceAll('\\n',' '))
+// 
 }
     </script>    
 </body>

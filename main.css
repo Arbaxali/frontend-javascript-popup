@@ -32,7 +32,7 @@
     padding: 12px 15px;
 }
 
-.styled-table tbody tr {
+.styled-table tbody tr{
     border-bottom: 1px solid #dddddd;
 }
 
@@ -115,7 +115,7 @@ a{
     background-color: #fefefe;
     /* margin: 15% auto; 15% from the top and centered */
     margin-top: 50px;
-    margin-left: 340px;
+    margin-left: 250px;
     padding: 30px 50px 30px 50px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -267,6 +267,11 @@ a{
     cursor: pointer;
   }
 
+  img{
+    width: 5%;
+    height: 5%;
+  }
+  
 form{
     background-color: white;
 } 
